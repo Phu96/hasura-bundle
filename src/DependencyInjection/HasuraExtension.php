@@ -42,6 +42,7 @@ final class HasuraExtension extends Extension
         $loader->load('handler.php');
         $loader->load('controller.php');
         $loader->load('event_listener.php');
+        $loader->load('security_authenticator.php');
         $loader->load('service.php');
         $loader->load('validation.php');
 
